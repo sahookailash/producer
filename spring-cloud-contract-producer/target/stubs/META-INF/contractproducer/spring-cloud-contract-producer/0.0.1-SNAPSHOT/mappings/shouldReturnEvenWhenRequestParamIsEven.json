@@ -1,0 +1,18 @@
+{
+  "id" : "672acc1e-7174-4182-af92-1254377e83e2",
+  "request" : {
+    "urlPath" : "/validate/prime-number",
+    "method" : "GET",
+    "queryParameters" : {
+      "number" : {
+        "equalTo" : "2"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Even",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "672acc1e-7174-4182-af92-1254377e83e2"
+}

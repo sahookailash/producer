@@ -1,0 +1,18 @@
+{
+  "id" : "76085786-e467-468e-88b6-84528b52abbe",
+  "request" : {
+    "urlPath" : "/validate/prime-number",
+    "method" : "GET",
+    "queryParameters" : {
+      "number" : {
+        "equalTo" : "1"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Odd",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "76085786-e467-468e-88b6-84528b52abbe"
+}
